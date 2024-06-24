@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #121212;
+}
+
+/* header */
+header {
+    background-color: #1f1f1f;
+    text-align: center;
+}
+
+header h1 {
+    font-family:'Trebuchet MS';
+    padding-top: 25px;
+    color: #ff4500;
+}
+
+header h2 {
+    padding: 0.5rem 0;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* navbar section  */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+    padding: 2px;
+}
+
+
+/* hero section */
+.hero {
+    text-align: center;
+    padding-bottom: 2rem ;
+    background-color: #1f1f1f;
+    position: relative;
+}
+
+/* carousel  */
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+.hero .carousel-inner {
+    height: 470px;
+}
+
+.hero .carousel-item {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    margin-top: 1rem;
+    color: #ff4500;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.hero .button {
+    background-color: #ff6347;
+    color: #121212;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .button:hover {
+    background-color: #ff4500;
+    padding: 0.6rem 1.1rem;
+}
+
+
+/* registration section */
+.registration {
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+    background-color: #4b4b4b;
+    padding: 2rem;
+    margin: 2rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.registration h2 {
+    margin-top: 50px;
+    margin-bottom: 1rem;
+    color: #ff4500;
+}
+
+.registration form label {
+    display: block;
+    font-size: 25px;
+    margin: 0.5rem 0 0.2rem;
+}
+
+.registration form input {
+    width: 30%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.registration form button {
+    background-color: #ff6347;
+    color: #121212;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.registration form label:hover{
+    font-size: 30px;
+}
+/* .registration form input:hover{
+    padding: 0.8rem 14.7rem;
+} */
+.registration form button:hover {
+    background-color: #ff4500;
+    padding: 0.7rem 1.5rem;
+}
+
+
+/* package section */
+.packages {
+    background-color: #ff4500;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.packages h2 {
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.packages .package {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f4f4f4;
+}
+
+.packages .package h3 {
+    margin-bottom: 0.5rem;
+    color: #ff6347;
+}
+
+.packages .package p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #b0adad;
+}
+
+.packages .package ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.packages .package ul li {
+    margin: 0.5rem 0;
+}
+
+.packages .package .button {
+    background-color: #ff6347;
+    color: #121212;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.packages .package .button:hover {
+    background-color: #ff4500;
+    padding: 0.6rem 1.1rem;
+}
+/* timing section */
+.timings {
+    border: 2px solid white;
+    background-color: #1f1f1f;
+    padding: 2rem;
+    margin: 5rem 0 3rem 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.timings h2 {
+    margin-top: 5rem;
+    color: #ff6347;
+}
+
+.timings p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.timings hr{
+    border: 1px solid white;
+}
+
+/* offers section   */
+.offers {
+    border: 20px solid #ff4500;
+    margin: 100px 0px 100px 0;
+    background-color: #121212;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.offers h2 {
+    margin-bottom: 2rem;
+    color: #ff6347;
+}
+
+.offers .offer {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.offers .offer h3 {
+    margin-bottom: 0.5rem;
+    color: #ff6347;
+}
+
+.offers .offer p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.offers .offer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.offers .offer ul li {
+    margin: 0.5rem 0;
+}
+
+.offers .offer{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.offers .offer .button:hover {
+    background-color: #ff4500;
+    padding: 0.6rem 1.1rem;
+}
+
+/* gear section */
+.gears {
+    background-color: #1f1f1f;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.gears h2 {
+    margin-bottom: 4rem;
+    color: #ff6347;
+}
+
+.gears .gear {
+    background-color: #121212;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.gears .gear h3 {
+    margin-bottom: 0.5rem;
+    color: #ff6347;
+}
+
+.gears .gear p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.gears .gear ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.button-new{
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.gears .gear ul li {
+    margin: 0.5rem 0;
+}
+
+.button-new:hover {
+    background-color: #ff4500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem 0.7rem;
+}
+
+/* nutrition  section */
+.nutrition {
+    height: 65vh;
+    background-color: #121212;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.nutrition h2 {
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    color: #ff6347;
+}
+
+.nutrition .supplement {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.nutrition .supplement h3 {
+    margin-bottom: 0.9rem;
+    color: #ff6347;
+}
+
+.nutrition .supplement p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.nutrition .supplement ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.nutrition .supplement ul li {
+    margin: 0.9rem 0;
+}
+
+/* contact section  */
+
+.contact {
+    background: #b9b7b7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.contact .contact-details {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact .contact-details li {
+    list-style: none;
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.contact .contact-details li i {
+    color: #f96d00;
+    margin-right: 10px;
+}
+
+.contact .social {
+    margin-top: 20px;
+}
+
+.contact .social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.contact .social li a {
+    color: #555;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.contact .social li a:hover {
+    color: #f96d00;
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+    margin: 1rem 0 0 0;
+}

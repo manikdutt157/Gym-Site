@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Zone Gym</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-/UL6vzjOksDzQGy8IKoSsQZ3oVcFZfB5PdxxT9u63y/waC+OEVc29wFJcRli2gCSjt3l2SZXcwQUN7tSTsZs8Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>ACTIVE GYM</h1>
+        <h2>Unleash Your Inner Athlete</h2>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#timings">Timings</a></li>
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#gears">Gym Gears</a></li>
+                    <li><a href="#nutrition">Nutrition & Supplements</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url('/assets/banner1.jpg');"></div>
+                    <div class="carousel-item" style="background-image: url('/assets/banner2.png');"></div>
+                    <div class="carousel-item" style="background-image: url('/assets/banner3.jpg');"></div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h2>Empower Your Fitness Journey</h2>
+            <p>Join Active Zone and experience a world-class fitness environment designed to help you achieve your goals.</p>
+            <a href="#registration" class="button">Join Now</a>
+            <a href="#offers" class="button">Check Offers</a>
+        </section>
+
+        <section id="registration" class="registration">
+            <h2>Get Started Today!</h2>
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required> <br>
+                <button type="submit">Register Now</button>
+            </form>
+        </section>
+
+        <section id="packages" class="packages">
+            <h2>Packages to Fit Your Needs</h2>
+            <div class="package">
+                <h3>Basic</h3>
+                <p>&#x24;30/month</p>
+                <ul>
+                    <li>Gym Access</li>
+                    <li>Basic Equipment</li>
+                    <li>Shower Facilities</li>
+                </ul>
+                <a href="#" class="button orange">Choose This</a>
+            </div>
+            <div class="package">
+                <h3>Standard</h3>
+                <p>&#x24;50/month</p>
+                <ul>
+                    <li>All Basic Benefits</li>
+                    <li>Group Fitness Classes</li>
+                    <li>Free Trainer Consultation</li>
+                </ul>
+                <a href="#" class="button orange">Choose This</a>
+            </div>
+            <div class="package">
+                <h3>Premium</h3>
+                <p>&#x24;70/month</p>
+                <ul>
+                    <li>All Standard Benefits</li>
+                    <li>Personalized Training Program</li>
+                    <li>Nutritional Guidance</li>
+                </ul>
+                <a href="#" class="button orange">Choose This</a>
+            </div>
+        </section>
+
+        <section id="timings" class="timings">
+            <h2>We're Open When You Need Us</h2>
+            <hr>
+            <p>Weekdays: 6:00 AM - 09:00 PM</p>
+            <br>
+            <p>Weekends: 8:00 AM - 8:00 PM</p>
+            <br>
+            <p>Holidays: Closed (except select holidays)</p>
+        </section>
+
+        <section id="offers" class="offers">
+            <h2>Limited Time Offers!</h2>
+            <div class="offer">
+                <h3>Bring a Friend, Get 10% Off!</h3>
+                <p>Join with a friend and both of you get 10% off your first month's membership.</p>
+            </div>
+            <div class="offer">
+                <h3>Student Discount</h3>
+                <p>Show your student ID to receive a special discount on membership fees.</p>
+            </div>
+        </section>
+
+        <section id="gears" class="gears">
+            <h2>Essential Gym Gear</h2>
+            <div class="gear">
+                <img src="/assets/dumbbell.jpg" alt="Dumbbell image" height="210px">
+                <h3>Dumbbells</h3>
+                <p>A versatile tool for strength training exercises.</p>
+            </div>
+            <div class="gear">
+                <img src="/assets/kettlebell.jpeg" alt="Kettlebell image" height="240px">
+                <h3>Kettlebells</h3>
+                <p>Great for building cardio and strength.</p>
+            </div>
+            <div class="gear">
+                <img src="/assets/treadmill.jpg" alt="Treadmill image" height="240px">
+                <h3>Treadmills</h3>
+                <p>Run or walk your way to fitness goals.</p>
+            </div>
+            <br>
+            <a href="#" class="button-new">Shop Gear</a>
+        </section>
+
+        <section id="nutrition" class="nutrition">
+            <h2>Fuel Your Body for Success</h2>
+            <p>We offer a variety of nutritional consultations and supplement recommendations to optimize your workouts.</p>
+            <a href="#" class="button-new">Learn More</a>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <p>Have questions or want to learn more? Contact us today!</p>
+            <ul class="contact-details">
+                <li><i class="fas fa-map-marker-alt"></i>123 Fitness street, Roorkee</li>
+                <li><i class="fas fa-phone-alt"></i>(+91) 8445X-XXXXX</li>
+                <li><i class="fas fa-envelope"></i>activezonegym@gmail.com</li>
+            </ul>
+            <ul class="social">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Active Zone Gym. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://kit.fontawesome.com/07312e75a9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+
+</html>
